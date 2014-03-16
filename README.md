@@ -1,4 +1,4 @@
-# Are They Down?
+# [Are They Down?](http://aretheydown.org)
 
 Does your service depend on a third party service? Need to get notified when they go
 down? Are They Down will notifiy you via a Webhook when an issue crops up.
@@ -8,7 +8,7 @@ down? Are They Down will notifiy you via a Webhook when an issue crops up.
 Subscribe to receive updates about a service going down:
 
 ```
-POST https://aretheydown.org/api/twilio/subscribe
+POST http://aretheydown.org/api/twilio/subscribe
 
 url=https://hubot.herokuapp.com/down/twilio
 ```
